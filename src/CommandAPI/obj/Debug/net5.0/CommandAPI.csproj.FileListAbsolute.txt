@@ -20,3 +20,13 @@
 /Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/obj/Debug/net5.0/ref/CommandAPI.dll
 /Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/obj/Debug/net5.0/CommandAPI.pdb
 /Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/obj/Debug/net5.0/CommandAPI.genruntimeconfig.cache
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/Humanizer.dll
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/Npgsql.dll
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/obj/Debug/net5.0/CommandAPI.csproj.CopyComplete
