@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "g3k4NUEo0c6twuF//zP6JcY6QV4mXgdrikl4u+17mykG8DX4HqrkpHxPeehxIp/RD3EBorw13qQwPMLY18++BQ==",
+  "dgSpecHash": "uDBEECfyZ1ywUQLrRvfzSr9GHhZG3nvqnKpa73BhtVu4fgUaoXSTcZUbSWjC2/MGHD/JgaiuN21Xp+EEvUGPrQ==",
   "success": true,
   "projectFilePath": "/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/CommandAPI.csproj",
   "expectedPackageFiles": [
+    "/Users/raghavbhalla/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/raghavbhalla/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/Users/raghavbhalla/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/raghavbhalla/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/raghavbhalla/.nuget/packages/microsoft.entityframeworkcore/5.0.8/microsoft.entityframeworkcore.5.0.8.nupkg.sha512",
@@ -25,6 +27,7 @@
     "/Users/raghavbhalla/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/Users/raghavbhalla/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/raghavbhalla/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "/Users/raghavbhalla/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/Users/raghavbhalla/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []

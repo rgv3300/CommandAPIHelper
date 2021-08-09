@@ -30,3 +30,5 @@
 /Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
 /Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/obj/Debug/net5.0/CommandAPI.csproj.CopyComplete
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/AutoMapper.dll
+/Users/raghavbhalla/csharp/API/Solution/src/CommandAPI/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

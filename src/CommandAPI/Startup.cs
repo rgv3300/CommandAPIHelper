@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using CommandAPI.Data;
 using Npgsql;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 
 namespace CommandAPI
 {
@@ -24,11 +25,12 @@ namespace CommandAPI
         public void ConfigureServices(IServiceCollection services)
         {
             var builder = new NpgsqlConnectionStringBuilder();
-            builder.ConnectionString = Configuration.GetConnectionString("PostgerSqlConnection");
+            builder.ConnectionString = Configuration.GetConnectionString("PostgreSqlConnection");
             builder.Username = Configuration["UserID"];
             builder.Password = Configuration["Password"];
             services.AddDbContext<CommandContext>(options => options.UseNpgsql(builder.ConnectionString));
             services.AddControllers();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<ICommandAPIRepo, SqlCommandAPIRepo>();
         }
 
