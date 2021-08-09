@@ -13,7 +13,7 @@ namespace CommandAPI.Data
         }
         public bool SaveChanges()
         {
-            return true;
+            return (_context.SaveChanges() => 0);
         }
 
         public IEnumerable<Command> GetAllCommands()
@@ -24,7 +24,13 @@ namespace CommandAPI.Data
         {
             return _context.CommandItems.FirstOrDefault(p => p.Id == id);
         }
-        public void CreateCommand(Command cmd) { }
+        public void CreateCommand(Command cmd) {
+            if(cmd == null)
+            {
+                throw new ArgumentNullException(nameof(cmd));
+            }
+            _context.CommandItems.Add(cmd);
+         }
         public void UpdateCommand(Command cmd) { }
         public void DeleteCommand(Command cmd) { }
     }
