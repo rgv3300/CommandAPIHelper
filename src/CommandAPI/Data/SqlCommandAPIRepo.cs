@@ -33,7 +33,10 @@ namespace CommandAPI.Data
             }
             _context.CommandItems.Add(cmd);
         }
-        public void UpdateCommand(Command cmd) { }
+        public void UpdateCommand(Command cmd) 
+        {
+            
+        }
         public void DeleteCommand(Command cmd) { }
     }
 }
