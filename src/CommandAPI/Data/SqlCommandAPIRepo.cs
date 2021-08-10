@@ -1,6 +1,7 @@
 using CommandAPI.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace CommandAPI.Data
 {
@@ -13,7 +14,7 @@ namespace CommandAPI.Data
         }
         public bool SaveChanges()
         {
-            return (_context.SaveChanges() => 0);
+            return (_context.SaveChanges() >= 0);
         }
 
         public IEnumerable<Command> GetAllCommands()
@@ -24,13 +25,14 @@ namespace CommandAPI.Data
         {
             return _context.CommandItems.FirstOrDefault(p => p.Id == id);
         }
-        public void CreateCommand(Command cmd) {
-            if(cmd == null)
+        public void CreateCommand(Command cmd)
+        {
+            if (cmd == null)
             {
-                throw new ArgumentNullException(nameof(cmd));
+                throw new System.ArgumentNullException(nameof(cmd));
             }
             _context.CommandItems.Add(cmd);
-         }
+        }
         public void UpdateCommand(Command cmd) { }
         public void DeleteCommand(Command cmd) { }
     }
