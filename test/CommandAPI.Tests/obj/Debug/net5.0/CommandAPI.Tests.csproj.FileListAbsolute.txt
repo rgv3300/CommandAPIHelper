@@ -105,3 +105,15 @@
 /Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/obj/Debug/net5.0/ref/CommandAPI.Tests.dll
 /Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/obj/Debug/net5.0/CommandAPI.Tests.pdb
 /Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/obj/Debug/net5.0/CommandAPI.Tests.genruntimeconfig.cache
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/AutoMapper.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Npgsql.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
