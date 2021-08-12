@@ -117,3 +117,5 @@
 /Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Castle.Core.dll
+/Users/raghavbhalla/csharp/API/Solution/test/CommandAPI.Tests/bin/Debug/net5.0/Moq.dll

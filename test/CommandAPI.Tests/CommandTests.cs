@@ -22,21 +22,19 @@ namespace CommandAPI.Tests
             testCommand = null;
         }
 
+        [Fact]
+        public void CanChangeHowTo()
+        {
+            //Arrange
 
+
+            //Act
+            this.testCommand.HowTo = "get a job";
+
+            // assert
+            Assert.Equal("get a job", testCommand.HowTo);
+            Assert.Equal("party floor", testCommand.Platform);
+            Assert.Equal("dotnet party", testCommand.CommandLine);
+        }
     }
-    [Fact]
-    public void CanChangeHowTo()
-    {
-        //Arrange
-
-
-        //Act
-        testCommand.HowTo = "get a job";
-
-        //assert
-        Assert.Equal("get a job", testCommand.HowTo);
-        Assert.Equal("party floor", testCommand.Platform);
-        Assert.Equal("dotnet ", testCommand.CommandLine);
-    }
-}
 }
