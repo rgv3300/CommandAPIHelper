@@ -23,3 +23,16 @@ Domain Model
     "CommandLine" : "dotnet ef migrations add MigrateInitial"
   }
 ```
+User Data Create Object
+``` 
+  {
+    "HowTo" : "migrate code first database using entity framework",
+    "Platform" : "net core cli",
+    "CommandLine" : "dotnet ef migrations add MigrateInitial"
+  }
+```
+As you can see that the user does not need to create an ID for creating a `POST` request as its implementation is hidden using Data Transfer Objects.
+
+## What I learned
+
+This project was a great learning opportunity for me to understand how we need to decouple domain implementation from user interface. It also helped me with learning how to create xunit tests for controller actions.
